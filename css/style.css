@@ -1,0 +1,85 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Components */
+@import url('components/banner.css');
+@import url('components/button.css');
+@import url('components/card.css');
+@import url('components/footer.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: pink;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#cards-header {
+  font-family: Gill Sans;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: #606060;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+  .cards {
+    width: 700px;
+  }
+  #cards-header {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  .cards {
+    width: 500px;
+  }
+  #cards-header {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  .cards {
+    width: 300px;
+  }
+  #cards-header {
+    width: 300px;
+  }
+}

@@ -1,0 +1,20 @@
+.footer {
+  text-align: center;
+  background-color: #5B7078;
+  margin: 0px;
+  padding: 50px;
+}
+
+.links {
+  font-size: 30px;
+  margin: 15px;
+}
+.a:hover {
+  color: #917C85;
+}
+.b:hover {
+  color: #917C85;
+}
+.c:hover {
+  color: #917C85;
+}

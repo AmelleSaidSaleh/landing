@@ -1,0 +1,27 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  display: flex;
+  text-align: center;
+}
+
+.banner .container {
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,1);
+  font-size: 100px;
+  font-weight: lighter;
+}
+
+.banner p {
+  font-family: Gill Sans;
+  font-weight: lighter;
+  color: grey;
+  text-shadow: 2px 2px 6px rgba(0,0,0,1);
+  font-size: 35px;
+  margin-bottom: 50px;
+}
